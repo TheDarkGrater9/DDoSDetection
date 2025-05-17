@@ -1,0 +1,34 @@
+from pydantic import BaseModel
+
+class InputData(BaseModel):
+    FlowID: str
+    Flow_IAT_Mean: float
+    Idle_Mean: float
+    Fwd_IAT_Mean: float
+    Packet_Length_Mean: float
+    Fwd_Packet_Length_Mean: float
+    Flow_IAT_Std: float
+    Fwd_Packet_Length_Min: float
+    Idle_Min: float
+    Flow_IAT_Min: float
+    Init_Fwd_Win_Bytes: float
+    Packet_Length_Variance: float
+    CWE_Flag_Count: float
+    Protocol: int
+    Flow_Packets_per_s: float
+    Fwd_Packets_per_s: float
+    Fwd_PSH_Flags: int
+    Fwd_Act_Data_Packets: float
+    Fwd_IAT_Std: float
+    Avg_Fwd_Segment_Size: float
+    Flow_IAT_Max: float
+    Total_Fwd_Packets: float
+    Subflow_Fwd_Packets: float
+    Fwd_IAT_Min: float
+    URG_Flag_Count: float
+    ACK_Flag_Count: float
+    RST_Flag_Count: float
+    Fwd_Packet_Length_Std: float
+    Fwd_IAT_Max: float
+    Packet_Length_Min: float
+    Active_Max: float
