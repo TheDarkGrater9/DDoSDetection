@@ -1,1 +1,2 @@
-analyzed multiple ML algorithms' performance on CIC DDoS 2019 dataset here
+analyzed multiple ML algorithms' performance on CIC DDoS 2019 dataset
+then analyzed 2 algorithms' performance on data that we generated and logged ourselves, initially exported as JSON files
