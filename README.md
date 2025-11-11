@@ -17,7 +17,7 @@ The model, one-hot-encoder and scaler are loaded only when needed, thus there is
 
 Error Handling
 
-if an error occurs while the batch worker is processing predictions, it will capture the error and notify the requests (called "futures") waiting for a result.
+if an error occurs while the batch worker is processing predictions, it will capture the error and notify the requests (corresponding to "futures") waiting for a result.
 By doing so, it ensures that the system doesn't crash or hang; instead, the pending requests are informed about the error, and the system remains stable despite the failure. 
 
 Deployment
