@@ -2,8 +2,8 @@
 Features of the detection module
 
 FastAPI
-
 Used for defining the HTTP API and exposing the prediction endpoint.
+
 Asynchronous Processing
 Using asyncio and ThreadPoolExecutor allows the API to handle numerous concurrent requests together without blocking.
 
